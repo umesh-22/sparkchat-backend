@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(
   cors({
-    origin: [process.env.CLIENT_URI, "https://spark-chat-2024.vercel.app"],
+    origin: [process.env.CLIENT_URI, "https://spark-chat-mern-stack.vercel.app/" ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
